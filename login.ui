@@ -34,7 +34,7 @@ font-size:28pt;</string>
     <string>Login</string>
    </property>
   </widget>
-  <widget class="QLabel" name="email">
+  <widget class="QLabel" name="emaillabel">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -51,7 +51,7 @@ font: 63 italic 12pt &quot;FreeSans&quot;;</string>
     <string>Email:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="password">
+  <widget class="QLabel" name="passwordlabel">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -68,7 +68,7 @@ font: 63 italic 12pt &quot;FreeSans&quot;;</string>
     <string>Password:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="Emailine">
+  <widget class="QLineEdit" name="email">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -86,7 +86,7 @@ font: 75 14pt &quot;Liberation Sans&quot;;</string>
     <string/>
    </property>
   </widget>
-  <widget class="QLineEdit" name="Passwordline">
+  <widget class="QLineEdit" name="password">
    <property name="geometry">
     <rect>
      <x>110</x>
@@ -103,8 +103,8 @@ font: 75 14pt &quot;Liberation Sans&quot;;</string>
   <widget class="QPushButton" name="loginbutton">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>280</y>
+     <x>180</x>
+     <y>260</y>
      <width>85</width>
      <height>25</height>
     </rect>
@@ -114,7 +114,42 @@ font: 75 14pt &quot;Liberation Sans&quot;;</string>
 font-size:14pt;</string>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>Log in</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 italic 10pt &quot;FreeSans&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Don't have an account?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="createaccbutton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>320</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(54, 54, 54);
+font-size:10pt;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Create account</string>
    </property>
   </widget>
  </widget>
